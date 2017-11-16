@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>DISTRIBUIDORA ARTOUIS</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">PAINEL DE CONTROLE</a>
+                </li>
+                <li>
+                    <a href="index.html" target="_self">INICIO</a>
+                </li>
+                <li>
+                    <a href="#">CADASTROS</a>
+                        <ul>
+                            <li><a href="#">PESSOAS</a></li>
+                                <ul>
+                                    <li><a href="cadastrofunc.php" target="_self">Funcionário</a></li>
+                                    <li><a href="cadastrocliente.php" target="_self">Cliente</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul>       
+                            <li><a href="#">PRODUTO</a></li>
+                                <ul>
+                                    <li><a href="cadastrocategoria.php" target="_self">Categoria</a></li>
+                                    <li><a href="cadastrosecao.php" target="_self">Seção</a></li>
+                                    <li><a href="cadastroprodutos.php" target="_self">Produtos</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">ENDEREÇO</a></li>
+                                <ul>
+                                    <li><a href="cadastroestado.php" target="_self">Estado</a></li>
+                                    <li><a href="cadastrocidade.php" target="_self">Cidade</a></li>   
+                                </ul>
+                            </li>
+                        </ul>
+                </li>
+                <li>
+                    <a href="#">BUSCAS</a>
+                    <ul>
+                            <li><a href="#">PESSOA</a>
+                                <ul>
+                                    <li><a href="funcionariophp.php" target="_self">Funcionários</a></li>
+                                    <li><a href="clientephp.php" target="_self">Clientes</a></li>
+                                </ul>
+                            </li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">PRODUTO</a>
+                            <ul>
+                                <li><a href="categoriaprodphp.php" target="_self">Categoria</a></li>
+                                <li><a href="secaoprodphp.php" target="_self">Seções</a></li>
+                                <li><a href="produtophp.php" target="_self">Estoque</a></li>
+                            </ul>
+                        </li>
+                    </ul>   
+                    <ul>        
+                        <li><a href="#">ENDEREÇO</a>
+                            <ul>
+                                <li><a href="estadophp.php" target="_self">Estado</a></li>
+                                <li><a href="cidadephp.php" target="_self">Cidade</a></li>                                    
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">RELATÓRIOS</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <h1>DISTRIBUIDORA ARTOUIS</h1>
+                <p>Página para controle administrativo.</p>
+                <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">MENU</a>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
+</html>
