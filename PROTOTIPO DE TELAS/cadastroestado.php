@@ -1,6 +1,7 @@
 <?php
     include 'inc/funcoes.php';
 ?>
+
 <html>
     <head>
         <title>CADASTRO</title>
