@@ -1,5 +1,6 @@
 <?php
     include 'inc/funcoes.php';
+    
        $estado = selectIdEstado($_POST["idestado"]);     
 ?>
 <html>
