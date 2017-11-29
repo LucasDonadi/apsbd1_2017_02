@@ -136,6 +136,7 @@ function inserirCidade(){
         if(mysqli_affected_rows($banco) != 0){
             echo " 
                 <META HTTP-EQUIV=REFRESH CONTENT = '0;URL=http://localhost/apsbd1_2017/cadastrocidade.php'>
+                <script type=\"text/javascript\">    
                     alert(\"Cidade Cadastrada com sucesso!\");
                 </script>
             ";
@@ -255,7 +256,7 @@ function inserirProduto(){
     }
     else{
     
-        $sql = "INSERT INTO produto (nomeproduto, lote, valorvenda, valorcompra, qtdestoque, categoriaproduto_idcategoriaproduto, localproduto_idlocalproduto) VALUES ('{$_POST["nomeproduto"]}','{$_POST["lote"]}','{$_POST["valorvenda"]}','{$_POST["valorcompra"]}','{$_POST["qtdestoque"]}','{$_POST["categoriaproduto_idcategoriaproduto"]}','{$_POST["localproduto_idlocalproduto"]}')";
+        $sql = "INSERT INTO produto (nomeproduto, lote, valorvenda, qtdestoque, categoriaproduto_idcategoriaproduto, localproduto_idlocalproduto) VALUES ('{$_POST["nomeproduto"]}','{$_POST["lote"]}','{$_POST["valorvenda"]}','{$_POST["qtdestoque"]}','{$_POST["categoriaproduto_idcategoriaproduto"]}','{$_POST["localproduto_idlocalproduto"]}')";
         $banco->query($sql);
 
         if(mysqli_affected_rows($banco) != 0){
@@ -923,7 +924,7 @@ function dropPJuridica(){
         echo " 
             <META HTTP-EQUIV=REFRESH CONTENT = '0;URL=http://localhost/apsbd1_2017/clientephp.php'>
             <script type=\"text/javascript\">
-                alert(\"Pessoa Jurídica Excluida com sucesso!\");
+                alert(\"Cliente Excluido com sucesso!\");
             </script>
         ";
     }
@@ -931,7 +932,7 @@ function dropPJuridica(){
         echo " 
             <META HTTP-EQUIV=REFRESH CONTENT = '0;URL=http://localhost/apsbd1_2017/clientephp.php'>
             <script type=\"text/javascript\">
-                alert(\"Erro ao Excluir uma Pessoa Jurídica!\");
+                alert(\"Erro ao Excluir um Cliente!\");
             </script>
         ";
     }
