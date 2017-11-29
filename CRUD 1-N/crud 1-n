@@ -1,0 +1,23 @@
+Implementado a Funcionalidade de:
+
+Cadastro de Cidade, Produto, Cliente(Pessoa Jurídica).
+
+====================================================
+CRUD 1-N:Cidade
+====================================================
+
+Para cadastrar uma nova cidade, basta acessar o menu cadastro, ir até ENDEREÇO e clicar na seção cidade e para realizar alterações ou excluir uma cidade, basta acessar a aba Buscas, ir até ENDEREÇO e clicar em cidade.
+
+====================================================
+CRUD SIMPLES:Produto
+====================================================
+
+Para cadastrar um nova Produto, basta acessar o menu cadastro, ir até PRODUTOS e clicar em produtos e para realizar alterações ou excluir um produto, basta acessar a aba Buscas, em PRODUTOS e clicar em produtos.
+
+====================================================
+CRUD SIMPLES:Cliente(Pessoa Jurídica)
+====================================================
+
+Para cadastrar um novo cliente, basta acessar o menu cadastro, depois PESSOA e após clicar em cliente e para realizar alterações ou excluir um cliente, basta acessar a aba Buscas, em PESSOA e depois clicar em cliente.
+
+**** Todas as Funções de Validação do Banco de Dados, INSERT, SELECT, DELETE, UPDATE (CRUD) está dentro do arquivo inc/funcoes.php ****
