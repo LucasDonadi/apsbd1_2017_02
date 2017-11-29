@@ -5,7 +5,7 @@
 
 <html>
     <head>
-        <title>PRODUTO</title>
+        <title>PRODUTOS</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
@@ -47,7 +47,7 @@
                     ?>
                 </tbody>
             </table>
-        <form name="voltar" action="home.html" method="POST"><br>
+        <form name="voltar" action="index.html" method="POST"><br>
             <input type="submit" value="Voltar"/>
         </form>
     </body>

@@ -1,6 +1,5 @@
 <?php
     include 'inc/funcoes.php';
-    
       $local = selectIdSecao($_POST["idlocalproduto"]);     
 ?>
 <html>

@@ -1,7 +1,6 @@
 <?php
 
 include 'inc/funcoes.php';
-
 $categoria = selectIdCategoria($_POST['idcategoriaproduto']);
 
 ?>

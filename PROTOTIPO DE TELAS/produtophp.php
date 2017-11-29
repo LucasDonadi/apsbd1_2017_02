@@ -17,7 +17,6 @@
                         <th>Nome</th>
                         <th>Lote</th>
                         <th>Valor da Venda</th>
-                        <th>Valor da Compra</th>
                         <th>Qtd. Estoque</th>
                         <th>Categoria</th>
                         <th>Seção</th>
@@ -33,7 +32,6 @@
                         <td><?=$produto["nomeproduto"]?></td>
                         <td><?=$produto["lote"]?></td>
                         <td><?=$produto["valorvenda"]?></td>
-                        <td><?=$produto["valorcompra"]?></td>
                         <td><?=$produto["qtdestoque"]?></td>
                         <td><?=$produto["nomecategoria"]?></td>
                         <td><?=$produto["secaoproduto"]?></td>

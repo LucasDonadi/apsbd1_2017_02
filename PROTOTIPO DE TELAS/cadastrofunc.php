@@ -1,6 +1,5 @@
 <?php
     include 'inc/funcoes.php';
-    
     $banco = abrirBanco();
 ?>
 <html>

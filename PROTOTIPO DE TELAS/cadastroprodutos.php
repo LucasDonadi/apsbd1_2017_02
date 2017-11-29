@@ -18,8 +18,6 @@
             <input type="text" name="lote" id="lote" size="15" /><br><br>
             Valor da Venda:
             <input type="text" name="valorvenda" id="valorvenda" size="15"/>
-            Valor da Compra:
-            <input type="text" name="valorcompra" id="valorcompra" size="15"/>
             Qtd. Estoque:
             <input type="text" name="qtdestoque" id="qtdestoque" size="10"/><br><br>
             Categoria do Produto:
