@@ -1,0 +1,23 @@
+Implementado a Funcionalidade de:
+
+Cadastro de Categoria de Produto,Cadastro de Estado e Cadastro de Seção.
+
+====================================================
+CRUD SIMPLES:Categoria de Produto 
+====================================================
+
+Para cadastrar uma categoria de produto, basta acessar o menu cadastro, ir até PRODUTO e clicar na seção categoria e para realizar alterações ou excluir uma categoria, basta acessar a aba Buscas, ir até PRODUTO e clicar em categoria.
+
+====================================================
+CRUD SIMPLES:Seção
+====================================================
+
+Para cadastrar uma nova seção, basta acessar o menu cadastro, ir até PRODUTO e clicar em seção e para realizar alterações ou excluir uma seção, basta acessar a aba Buscas, em PRODUTOS e clicar em Seções.
+
+====================================================
+CRUD SIMPLES:Estado
+====================================================
+
+Para cadastrar um novo estado, basta acessar o menu cadastro, depois ENDEREÇO e após clicar em estado e para realizar alterações ou excluir uma categoria, basta acessar a aba Buscas, em ENDEREÇO e depois clicar em estado.
+
+**** Todas as Funções de Validação do Banco de Dados, INSERT, SELECT, DELETE, UPDATE (CRUD) está dentro do arquivo inc/funcoes.php ****
