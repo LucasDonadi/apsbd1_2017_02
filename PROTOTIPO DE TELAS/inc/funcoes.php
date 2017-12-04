@@ -596,6 +596,58 @@ function selectProdutoEstado(){
     $banco->close();
 }
 
+function selectCidadeEstado(){
+$banco = abrirBanco();
+$sql="select C.idcidade, C.nomecidade, E.nomeestado from CIDADE C, ESTADO E where C.estado_idestado in (select E.idestado from ESTADO E1)";
+$resultado = $banco->query($sql);
+$banco->close();
+return $resultado;
+}
+
+function selectEnderecoCidade(){
+$banco = abrirBanco();
+$sql="select E.logradouro, E.bairro, C.nomecidade from ENDERECO E, CIDADE C where E.cidade_idcidade in (select C.idcidade from CIDADE C1)";
+$resultado = $banco->query($sql);
+$banco->close();
+return $resultado;
+}
+
+function selectFuncionarioFisica(){
+$banco = abrirBanco();
+$sql="select F2.idfuncionario, F1.nome, F1.rg, F1.cpf, F1.datanasc, F2.funcao, F2.admissao, F2.salario from FISICA F1, FUNCIONARIO F2 where F2.fisica_idfisica in (select F1.idfisica from Fisica F3)";
+$resultado = $banco->query($sql);
+$banco->close();
+return $resultado;
+}
+
+function selectJuridicaCliente(){
+$banco = abrirBanco();
+$sql="select C.idcliente, J.cnpj, J.inscrestad, J.razaosocial, J.nomefantasia from Juridica J, Cliente C where J.idjuridica in (select C.juridica_idjuridica from Cliente C1)";
+$resultado = $banco->query($sql);
+$banco->close();
+return $resultado;
+}
+
+function selectProdutoLocalProduto(){
+$banco = abrirBanco();
+$sql="select P.idproduto, P.nomeproduto, P.lote, P.valorvenda, P.qtdestoque, L.secaoproduto from Produto P, LocalProduto L where P.localproduto_idlocalproduto in (select L.idlocalproduto from LocalProduto L1)";
+$resultado = $banco->query($sql);
+$banco->close();
+return $resultado;
+}
+
+function selectProdutoCategoria(){
+$banco = abrirBanco();
+$sql="select P.idproduto, P.nomeproduto, P.lote, P.valorvenda, P.qtdestoque, C.nomecategoria from Produto P, CategoriaProduto C where P.categoriaproduto_idcategoriaproduto in (select C.idcategoriaproduto from CategoriaProduto C1)";
+$resultado = $banco->query($sql);
+$banco->close();
+return $resultado;
+}
+
+
+
+
+
 
 
 
