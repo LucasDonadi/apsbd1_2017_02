@@ -1,0 +1,8 @@
+-------------Relatórios-------------
+
+Para acessar os relatórios complexos o usuário deve clicar em Relatórios no menu inicial e após isso selecionar o relatório desejado.
+
+
+------------------------------------
+
+**** Todas as Funções de Validação do Banco de Dados, INSERT, SELECT, DELETE, UPDATE (CRUD) está dentro do arquivo inc/funcoes.php ****
